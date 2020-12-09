@@ -1,6 +1,8 @@
+<p align="center"><a  target="_blank"><img src="https://i.postimg.cc/NfDRmBKw/851586-126362164215247-428974420-n.png" width="100"></a></p>
+
 # Diario Online J3+
 
-_ Acá va un párrafo que describa lo que es el proyecto_
+_Acá va un párrafo que describa lo que es el proyecto_
 
 ## Comenzando :fa-road:
 
@@ -22,7 +24,7 @@ Da un ejemplo
 
 _Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con :fa-cogs:
+## Construido con 🔧
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
