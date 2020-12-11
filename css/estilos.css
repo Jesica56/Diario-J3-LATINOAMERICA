@@ -1,7 +1,17 @@
 /*Creado por Jaime y Arthur*/
 *{
-	margin: 0px;
-	padding: 0px;
+display:flex;
+flex-direction: column;
+margin: 0px;
+padding: 0px;
+}
+.contenedor, .noticias{
+    flex-direction: row;
+}
+aside{
+    background-color: brown;
+    height: 500px;
+    width: 500px;
 }
 body{
 	display:flex;
