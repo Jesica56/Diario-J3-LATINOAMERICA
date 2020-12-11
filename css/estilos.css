@@ -34,7 +34,8 @@ body, main{
 	list-style: none;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
 }
 .slider figure{
 	position: absolute;
@@ -53,7 +54,8 @@ body, main{
 	position: relative;
 	z-index: 10;
 	margin: 0 10px;
-	bottom: 10px;
+    bottom: 10px;
+    
 }
 .slider figcaption{
 	position: absolute;
