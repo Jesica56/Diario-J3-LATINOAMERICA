@@ -1,4 +1,60 @@
 /*Creado por Jaime y Arthur*/
-*{
-display:flex;
+* {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
+title,script {
+  display: none;
+}
+body{
+  
+}
+/*Header*/
+
+header{
+  padding: 0.1% 2%;
+  flex-direction: column;
+}
+section.topbar {
+  flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+span.idioma {
+  flex-direction: row;
+}
+.idioma button{
+    background: #fff;
+    border: #fff;
+    margin: 0 8%;
+}
+.idioma button:hover{
+  background: rgb(245, 240, 240);
+  border: rgb(141, 128, 128) solid 1px;
+  margin: 0 8%;
+}
+/*.secundario h1 {
+  flex-direction: row;
+}
+.secundario form {
+  flex-direction: row;
+}*/
+@media screen and (min-width: 780px) {
+  .hamburguesa{
+    display: none;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+}
+  nav.menu ul { 
+    flex-direction: row;
+    align-items: center;
+}
+
+
+  }
+/*Fin Header*/
