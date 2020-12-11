@@ -18,9 +18,8 @@ header{
   flex-direction: column;
 }
 section.topbar {
-  flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
     
 }
 span.idioma {
@@ -36,13 +35,32 @@ span.idioma {
   border: rgb(141, 128, 128) solid 1px;
   margin: 0 8%;
 }
-/*.secundario h1 {
+.secundario h1 {
   flex-direction: row;
 }
 .secundario form {
   flex-direction: row;
-}*/
+}
+.secundario h1 strong {
+  padding: 5%;
+  font-size: 2em;
+}
+.secundario h1,.secundario figure,.secundario form {
+  margin: 0 10px;
+}
+.secundario h1 {
+  flex-direction: row;
+  align-items: center;
+}
+section.secundario {
+  margin: 10px 0;
+}
+.secundario form {
+  align-items: center;
+}
+
 @media screen and (min-width: 780px) {
+
   .hamburguesa{
     display: none;
   }
@@ -54,7 +72,20 @@ span.idioma {
     flex-direction: row;
     align-items: center;
 }
-
-
+.secundario nav {
+    justify-content: center;
+}
+nav.menu {
+  justify-content: center;
+}
+.secundario textarea {
+  border: #000;
+  border-bottom: 1px solid;
+  height: 20px;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 30%;
+  resize: none;
+}
   }
 /*Fin Header*/
