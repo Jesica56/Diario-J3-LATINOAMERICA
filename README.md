@@ -2,20 +2,25 @@
 
 # Diario Online J3+
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Acá va un p_
+Se desea lograr la parte front de un sitio web de un Diario Electrónico,
+generando el index-home y la plantilla de las noticias de cada categoria.
+
 
 ## Comenzando 🚧
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
+Se comenzo por clonar el proyecto, generar un repositorio local y hacer
+ramas por cada sección.
 
 
 ### Pre-requisitos 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
-
-```
+Un navegador, internet para conectarte a github.
+``` 
 Da un ejemplo
 ```
 
@@ -24,10 +29,12 @@ Da un ejemplo
 
 _Agrega notas adicionales sobre como hacer deploy_
 
+
 ## Construido con 🔧
+Se utiliza GIT, HTML5 y CSS
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
+_Menciona las herramientas que utilizaste para crear tu proyecto
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
