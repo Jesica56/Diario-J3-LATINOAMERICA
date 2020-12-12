@@ -58,68 +58,37 @@ section.secundario {
 .secundario form {
   align-items: center;
 }
-
-@media screen and (min-width: 780px) {
-
-  .hamburguesa{
-    display: none;
-  }
-  nav{
-    display: flex;
-    flex-direction: row;
-}
-  nav.menu ul { 
-    flex-direction: row;
-    align-items: center;
-}
-.secundario nav {
-    justify-content: center;
-}
-nav.menu {
-  justify-content: center;
-}
-.secundario textarea {
-  border: #000;
-  border-bottom: 1px solid;
-  height: 20px;
-  align-items: center;
-  margin-right: 1%;
-  margin-left: 30%;
-  resize: none;
-}
-  }
 /*Fin Header*/
-.contenedor, .noticias{
-    flex-direction: row;
-}
-aside{
-    background-color: brown;
-    height: 500px;
-    width: 500px;
-}
-body{
-	display:flex;
-}
 body, main{
 	flex-direction: column;
 }
+/***************************Contenedor********************************/
 .contenedor{
 	width: 100%;
 }
 .columna{
 	width: 100%;
-	display: flex;
+	margin: 20px;
 }
+.contenedor, .noticias{
+    flex-direction: row;
+}
+aside{
+    background-color: brown;
+    height: 100vh;
+    width: 500px;
+}
+/*****************************Slider**********************************/
 .slider{
 	position: relative;
-	width: 600px;
-	height: 400px;
-	margin: 0 auto;
+	width: 100%;
+	height: 500px;
 	list-style: none;
 	display: flex;
 	justify-content: center;
     align-items: flex-end;
-    flex-direction: row;
+	flex-direction: row;
+	box-sizing: border-box;
 }
 .slider figure{
 	position: absolute;
@@ -159,3 +128,60 @@ body, main{
 .slider input[type="radio"]:checked ~ figure{
 	opacity: 1;
 }
+/***************************Noticias**********************************/
+.noticias{
+	width: 100%;
+	justify-content: space-between;
+}
+.noticias .nota{
+	width: 300px;
+	height: 200px;
+	margin-top: 20px;
+	position: relative;
+}
+.noticias .nota figure, .noticias .nota a, .noticias .nota img{
+	width: 100%;
+	height: 100%;
+}
+.noticias .nota p{
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	color: white;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	box-sizing: border-box;
+	height: 50px;
+	justify-content: center;
+}
+/***********************Media Query**************************************/
+@media screen and (min-width: 780px) {
+
+	.hamburguesa{
+	  display: none;
+	}
+	nav{
+	  display: flex;
+	  flex-direction: row;
+  }
+	nav.menu ul { 
+	  flex-direction: row;
+	  align-items: center;
+  }
+  .secundario nav {
+	  justify-content: center;
+  }
+  nav.menu {
+	justify-content: center;
+  }
+  .secundario textarea {
+	border: #000;
+	border-bottom: 1px solid;
+	height: 20px;
+	align-items: center;
+	margin-right: 1%;
+	margin-left: 30%;
+	resize: none;
+  }
+	}
