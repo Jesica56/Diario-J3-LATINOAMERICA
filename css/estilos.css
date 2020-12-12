@@ -159,3 +159,24 @@ body, main{
 .slider input[type="radio"]:checked ~ figure{
 	opacity: 1;
 }
+/***********************Footer*********************************/
+footer{
+	background-color: rgba(5, 56, 71, 0.925);
+}
+footer .info, footer .copyrigth p{
+	width: 100%;
+	flex-direction: row;
+	color: white;
+	justify-content: center;
+}
+footer .info a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+footer .info a{
+	margin: 5px;
+}
+footer .copyrigth p{
+	margin: 10px;
+}
