@@ -172,6 +172,28 @@ aside{
 	height: 50px;
 	justify-content: center;
 }
+/***********************Footer*********************************/
+footer{
+	background-color: rgba(23, 23, 24, 0.925);
+}
+footer .info, footer .copyrigth p{
+	width: 100%;
+	flex-direction: row;
+	color: white;
+	justify-content: center;
+}
+footer .info a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+footer .info a{
+	margin: 5px;
+}
+footer .copyrigth p{
+	margin: 10px 0px;
+}
+
 /***********************Media Query**************************************/
 @media screen and (min-width: 780px) {
 
