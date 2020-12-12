@@ -51,6 +51,12 @@ span.idioma {
 nav.menu {
   margin: 0px auto 20px;
 }
+.menu li {
+  margin: 0 20px;
+}
+.menu a:hover {
+  color: blue;
+}
 .secundario h1 {
   flex-direction: row;
   align-items: center;
