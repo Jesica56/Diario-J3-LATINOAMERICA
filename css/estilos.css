@@ -94,6 +94,7 @@ aside{
     background-color: brown;
     height: 100vh;
     width: 500px;
+    justify-content: flex-end;
 }
 /*****************************Slider**********************************/
 .slider{
@@ -193,7 +194,18 @@ footer .info a{
 footer .copyrigth p{
 	margin: 10px 0px;
 }
-
+.banderas img {
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+}
+section.banderas {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
 /***********************Media Query**************************************/
 @media screen and (min-width: 780px) {
 
