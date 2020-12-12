@@ -149,11 +149,11 @@ aside{
 .noticias{
 	width: 100%;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 .noticias .nota{
 	width: 300px;
 	height: 200px;
-	margin-top: 20px;
 	position: relative;
 }
 .noticias .nota figure, .noticias .nota a, .noticias .nota img{
