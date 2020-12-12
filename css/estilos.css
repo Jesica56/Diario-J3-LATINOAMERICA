@@ -43,22 +43,36 @@ span.idioma {
 }
 .secundario h1 strong {
   padding: 5%;
-  font-size: 2em;
+  font-size: 3em;
 }
 .secundario h1,.secundario figure,.secundario form {
   margin: 0 10px;
 }
+nav.menu {
+  margin: 0px auto 20px;
+}
+.menu li {
+  margin: 0 20px;
+}
+.menu a:hover {
+  color: blue;
+}
 .secundario h1 {
   flex-direction: row;
   align-items: center;
+  font-size: 24px;
 }
 section.secundario {
   margin: 10px 0;
+  border-bottom: 1.5px solid;
 }
 .secundario form {
   align-items: center;
 }
-
+.menu a {
+  font-size: 18px;
+  text-decoration: none;
+}
 @media screen and (min-width: 780px) {
 
   .hamburguesa{
@@ -87,7 +101,7 @@ nav.menu {
   margin-left: 30%;
   resize: none;
 }
-  }
+}
 /*Fin Header*/
 .contenedor, .noticias{
     flex-direction: row;
