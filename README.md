@@ -22,7 +22,7 @@ Y por último, lo más importante, tener disponibilidad y ganas de aprender sobr
 
 ## Despliegue 🚀
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Puedes encontrar mucho más sobre este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)_
 
 
 ## Construido con 🔧
@@ -46,34 +46,30 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 * [GIT](https://git-scm.com/) - Sistema de control de versiones.
 * [GitHub](https://github.com/) - Servicio de hosting de repositorios almacenados en la nube.
-* [HTML5](https://rometools.github.io/rome/) - Usado para generar RSS
-* [CSS](https://rometools.github.io/rome/) - Usado para generar RSS
+* [HTML5](https://www.w3schools.com/html/default.asp) - Lenguaje de etiquetas para crear páginas web.
+* [CSS](https://www.w3schools.com/css/default.asp) - Lenguaje de diseño gráfico para definir y crear la presentación de un documento HTML.
 
 ## Contribuyendo  💻
 
 Somos parte de una comunidad llamada Plataforma 39A, conoce más sobre este gran proyecto en sus [Redes Sociales](https://www.instagram.com/plataforma39a)
 
-## Wiki 📖
-
-Puedes encontrar mucho más sobre este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
 
 ## Autores 👩👨
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+J3+ está integrado por los siguientes desarrolladores:
 
-* **Jesica Martínez** - *Trabajo Inicial* - [Jesica56](https://github.com/Jesica56)
-* **Mireya García** - *Trabajo Inicial* - [Mireya210](https://github.com/Mireya210)
-* **José Luis Martínez** - *Trabajo Inicial* - [joseluis1706](https://github.com/joseluis1706)
-* **Jaime Armata** - *Trabajo Inicial* - [jimat64891](https://github.com/jimat64891)
-* **Santiago Quispe** - *Trabajo Inicial* - [santi343](https://github.com/santi343)
-* **Arturo Solano** - *Trabajo Inicial* - [arturosmisc](https://github.com/arturosmisc)
+* **Jesica Martínez** - *Argentina* - [Jesica56](https://github.com/Jesica56)
+* **José Luis Martínez** - *Colombia* - [joseluis1706](https://github.com/joseluis1706)
+* **Jaime Armata** - *Bolivia* - [jimat64891](https://github.com/jimat64891)
+* **Mireya García** - *México* - [Mireya210](https://github.com/Mireya210)
+* **Arturo Solano** - *México* - [arturosmisc](https://github.com/arturosmisc)
+* **Santiago Quispe** - *Argentina* - [santi343](https://github.com/santi343)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (J3+)
+Este proyecto está bajo la Licencia J3+. Todos los derechos Reservados. Diciembre 2020.
 
 
 ---
