@@ -3,28 +3,22 @@
 
 # Diario Online J3+
 
-_Acá va un p_
-Se desea lograr la parte front de un sitio web de un Diario Electrónico,
-generando el index-home y la plantilla de las noticias de cada categoria.
-
+_Diario Online J3+ nace con el objetivo de proporcionar información, apostando por la calidad en sus contenidos enfocados a Política, Deporte, Tecnología, Gamming, Educación y Turismo. Podrás encontrar las últimas novedades del sector, noticias de actualidad, entre otros contenidos interesantes._
 
 ## Comenzando 🚧
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-Se comenzo por clonar el proyecto, generar un repositorio local y hacer
-ramas por cada sección.
-
+_Este Diario Online ha sido diseñado por una comunidad de desarrolladores de diversos países: Argentina, Bolivia, Colombia y México, poniendo en práctica los conocimientos adquiridos en materias de HTML5 y CSS3, así como el uso de herramientas open source GIT y GITHUB._
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-Un navegador, internet para conectarte a github.
-``` 
-Da un ejemplo
-```
+_Para contribuir con este proyecto deberás contar con lo siguiente:_
 
+``` 
+Conexión a internet
+Instalar Git en tu equipo
+Crear una cuenta en GitHub
+Y por último, lo más importante, tener disponibilidad y ganas de aprender sobre el mundo HTML y CSS.
+```
 
 ## Despliegue 🚀
 
@@ -57,7 +51,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Contribuyendo  💻
 
-Somos parte de un proyecto llamado Plataforma 39A
+Somos parte de una comunidad llamada Plataforma 39A, conoce más sobre este gran proyecto en sus [Redes Sociales](https://www.instagram.com/plataforma39a)
 
 ## Wiki 📖
 
