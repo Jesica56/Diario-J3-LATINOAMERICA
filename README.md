@@ -1,4 +1,5 @@
-<p align="center"><a  target="_blank"><img src="https://i.postimg.cc/NfDRmBKw/851586-126362164215247-428974420-n.png" width="100"></a></p>
+<p align="center"><a  target="_blank"><img src="https://i.postimg.cc/9f9rH66H/icono.png" width="100"></a></p>
+
 
 # Diario Online J3+
 
@@ -31,43 +32,54 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 
 ## Construido con 🔧
-Se utiliza GIT, HTML5 y CSS
+<table>
+      <td align="center" valign="middle">
+        <a  target="_blank">
+          <img width="222px" src="https://i.postimg.cc/c1cq5F59/git.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a target="_blank">
+          <img width="222px" src="https://i.postimg.cc/ydz5LRhC/GitHub.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a  target="_blank">
+          <img width="222px" src="https://i.postimg.cc/ZKqQs4Nn/html.png">
+        </a>
+      </td>
+</table>
 
-
-_Menciona las herramientas que utilizaste para crear tu proyecto
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [GIT](https://git-scm.com/) - Sistema de control de versiones.
+* [GitHub](https://github.com/) - Servicio de hosting de repositorios almacenados en la nube.
+* [HTML5](https://rometools.github.io/rome/) - Usado para generar RSS
+* [CSS](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Contribuyendo  💻
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Somos parte de un proyecto llamado Plataforma 39A
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más sobre este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
 
 
 ## Autores 👩👨
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Jesica Martínez** - *Trabajo Inicial* - [Jesica56](https://github.com/Jesica56)
+* **Mireya García** - *Trabajo Inicial* - [Mireya210](https://github.com/Mireya210)
+* **José Luis Martínez** - *Trabajo Inicial* - [joseluis1706](https://github.com/joseluis1706)
+* **Jaime Armata** - *Trabajo Inicial* - [jimat64891](https://github.com/jimat64891)
+* **Santiago Quispe** - *Trabajo Inicial* - [santi343](https://github.com/santi343)
+* **Arturo Solano** - *Trabajo Inicial* - [arturosmisc](https://github.com/arturosmisc)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (J3+) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
+Este proyecto está bajo la Licencia (J3+)
 
 
 ---
