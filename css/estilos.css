@@ -197,6 +197,9 @@
   footer{
 	  background-color: rgba(23, 23, 24, 0.925);
   }
+  footer ul{
+	flex-flow: wrap row;	
+  }
   footer .info, footer .copyrigth p{
 	  width: 100%;
 	  flex-direction: row;
@@ -204,16 +207,20 @@
 	  justify-content: center;
   }
   footer .info a{
-	  color: white;
+	  color:#cdcdcd;
 	  text-align: center;
 	  text-decoration: none;
-  }
-  footer .info a{
 	  margin: 5px;
+  }
+  footer .info a:hover{
+	color:#fff;
   }
   footer .copyrigth p{
 	  margin: 10px 0px;
   }
+  footer li {
+    margin: 5px 10px;
+}
   .banderas img {
 	width: 150px;
 	height: 100px;
