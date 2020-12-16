@@ -15,6 +15,13 @@
 	flex-direction: column;
 	background: rgb(23 23 24 / 0.80);
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+	left: 0;
+	z-index: 100;
+}
   section.topbar {
 	flex-direction: row;
 	justify-content: space-between;
@@ -61,6 +68,8 @@
   }
   .menu a:hover {
 	color: blue;
+	background: #fff;
+    border-radius: 10%;
   }
   .secundario h1 {
 	flex-direction: row;
@@ -89,6 +98,9 @@
 	  flex-direction: column;
   }
   /***************************Contenedor********************************/
+  main.contenedor {
+    padding-top: 220px;
+}
   .contenedor{
 	  width: 100%;
   }
@@ -250,6 +262,7 @@
   .icon-search{
 	  font-size: 25px;
 	  padding-left: 10px;
+	  color: #fff;
   }
   /***************************Eventos******************************/
   .redes span:hover{
