@@ -50,7 +50,7 @@
   }
   .secundario form {
 	flex-direction: row;
-	width: 300px;
+	width: auto;
 	justify-content: flex-end;
   }
   .secundario h1 strong {
@@ -64,19 +64,22 @@
 	margin: 0px auto 20px;
   }
   .menu li {
-	margin: 0 20px;
+	padding: 0 10px;
   }
-  .menu a:hover {
-	color: blue;
-	background: #fff;
-    border-radius: 10%;
-  }
+
+  .menu li:hover {
+    background: #fff;
+    border-radius: 5px;
+}
+.menu a:hover {
+    color: blue;}
   .secundario h1 {
 	flex-direction: row;
 	align-items: center;
 	font-size: 24px;
   }
   section.secundario {
+	flex-direction: row;
 	margin: 10px 0;
 	border-bottom: 1.5px solid;
   }
