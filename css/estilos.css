@@ -98,8 +98,24 @@
 	font-weight: bold;
   }
   li.gamming:hover {
-    background: #5c9ee3;
+    background: #4C0CCD;
 }
+li.politica:hover {
+    background: #4C0CCD;
+}
+li.tecnologia:hover {
+    background: #4C0CCD;
+}
+li.turismo:hover {
+    background: #4C0CCD;
+}
+li.educacion:hover {
+    background: #4C0CCD;
+}
+li.deporte:hover {
+    background: #4C0CCD;
+}
+
   /*Fin Header*/
   body, main{
 	  flex-direction: column;
