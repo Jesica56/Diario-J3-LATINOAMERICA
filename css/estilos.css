@@ -25,7 +25,8 @@
   section.topbar {
 	flex-direction: row;
 	justify-content: space-between;
-	color: #cdcdcd;  
+	color: #cdcdcd; 
+	border-bottom: 1px solid #fff; 
   }
   span.idioma {
 	flex-direction: row;
@@ -50,7 +51,7 @@
   }
   .secundario form {
 	flex-direction: row;
-	width: 300px;
+	width: auto;
 	justify-content: flex-end;
   }
   .secundario h1 strong {
@@ -61,24 +62,28 @@
 	margin: 0 10px;
   }
   nav.menu {
-	margin: 0px auto 20px;
+	margin: 0px auto;
   }
   .menu li {
-	margin: 0 20px;
+	padding: 0 10px;
   }
-  .menu a:hover {
-	color: blue;
-	background: #fff;
-    border-radius: 10%;
-  }
+
+  .menu li:hover {
+    background: #fff;
+    border-radius: 5px;
+}
+.menu a:hover {
+    color: blue;}
   .secundario h1 {
 	flex-direction: row;
 	align-items: center;
 	font-size: 24px;
   }
   section.secundario {
+	flex-direction: row;
 	margin: 10px 0;
-	border-bottom: 1.5px solid;
+	padding-bottom: 10px;
+    border-bottom: 1.5px solid #fff;
   }
   .secundario form {
 	align-items: center;
@@ -99,7 +104,7 @@
   }
   /***************************Contenedor********************************/
   main.contenedor {
-    padding-top: 220px;
+    padding-top: 185px;
 }
   .contenedor{
 	  width: 100%;
