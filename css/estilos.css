@@ -25,7 +25,8 @@
   section.topbar {
 	flex-direction: row;
 	justify-content: space-between;
-	color: #cdcdcd;  
+	color: #cdcdcd; 
+	border-bottom: 1px solid #fff; 
   }
   span.idioma {
 	flex-direction: row;
@@ -61,7 +62,7 @@
 	margin: 0 10px;
   }
   nav.menu {
-	margin: 0px auto 20px;
+	margin: 0px auto;
   }
   .menu li {
 	padding: 0 10px;
@@ -81,7 +82,8 @@
   section.secundario {
 	flex-direction: row;
 	margin: 10px 0;
-	border-bottom: 1.5px solid;
+	padding-bottom: 10px;
+    border-bottom: 1.5px solid #fff;
   }
   .secundario form {
 	align-items: center;
@@ -102,7 +104,7 @@
   }
   /***************************Contenedor********************************/
   main.contenedor {
-    padding-top: 220px;
+    padding-top: 185px;
 }
   .contenedor{
 	  width: 100%;
