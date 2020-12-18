@@ -215,7 +215,7 @@ li.deporte:hover {
 	  width: 100%;
 	  height: 100%;
   }
-  .noticias .nota p, .izquierda .nota p{
+  .noticias .nota p{
 	  position: absolute;
 	  text-align: center;
 	  bottom: 0px;
@@ -227,12 +227,7 @@ li.deporte:hover {
 	  height: 50px;
 	  justify-content: center;
   }
-
-  .izquierda{
-	width: 100%;
-	justify-content: space-between;
-	margin-top: 20px;
-}
+  
   /***********************Footer*********************************/
   footer{
 	  background-color: rgba(23, 23, 24, 0.925);
@@ -348,7 +343,28 @@ li.deporte:hover {
   .titulo a:hover{
      color: #f7f6f5;
   }
-
+  /***************************Categorias************************************/
+  .izquierda .nota p {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: auto;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    margin-top: -50px;
+}
+  .izquierda{
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.categoria .noticias .nota {
+    width: 50%;
+    margin: 0 10px;
+}
 
 
   /***********************Media Query**************************************/
