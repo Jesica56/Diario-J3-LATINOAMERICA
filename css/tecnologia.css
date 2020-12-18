@@ -1,0 +1,329 @@
+* {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  }
+  title,script {
+  display: none;
+  }
+  /*Header*/
+  
+  header{
+  padding: 1% 2%;
+  flex-direction: column;
+  background: rgb(23 23 24 / 0.80);
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+  left: 0;
+  z-index: 100;
+}
+  section.topbar {
+  flex-direction: row;
+  justify-content: space-between;
+  color: #cdcdcd; 
+  border-bottom: 1px solid #fff; 
+  }
+  span.idioma {
+  flex-direction: row;
+  }
+  .idioma button{
+    background: no-repeat;
+    border: none;
+    margin: 0 8%;
+    color: #cdcdcd;
+  }
+  .idioma button:hover{
+    background: #fff;
+    border: rgb(141, 128, 128) solid 1px;
+    margin: 0 8%;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
+  }
+  .secundario h1 {
+  flex-direction: row;
+  }
+  .secundario form {
+  flex-direction: row;
+  width: auto;
+  justify-content: flex-end;
+  }
+  .secundario h1 strong {
+  padding: 5%;
+  font-size: 3em;
+  }
+  .secundario h1,.secundario figure,.secundario form {
+  margin: 0 10px;
+  }
+  nav.menu {
+  margin: 0px auto;
+  }
+  .menu li {
+  padding: 0 10px;
+  }
+
+  .menu li:hover {
+    background: #fff;
+    border-radius: 5px;
+}
+.menu a:hover {
+    color: #fff;}
+  .secundario h1 {
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  }
+  section.secundario {
+  flex-direction: row;
+  margin: 10px 0;
+  padding-bottom: 10px;
+    border-bottom: 1.5px solid #fff;
+  }
+  .secundario form {
+  align-items: center;
+  }
+  
+  .menu a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color:#cdcdcd;
+  font-size: 22px;
+  font-weight: bold;
+  }
+  li.gamming:hover {
+    background: #DD340B;
+}
+li.politica:hover {
+    background: #4C0CCD;
+}
+li.tecnologia:hover {
+    background: #8C12CD;
+}
+li.turismo:hover {
+    background: #F8890C;
+}
+li.educacion:hover {
+    background: #02C8CF;
+}
+li.deporte:hover {
+    background: #13D807;
+}
+
+  /*Fin Header*/
+  body, main{
+    flex-direction: column;
+  }
+  /***************************Contenedor********************************/
+  main.contenedor {
+    padding-top: 185px;
+}
+  .contenedor{
+    width: 100%;
+  }
+  .columna{
+    width: 100%;
+    margin: 20px;
+  }
+  .contenedor, .noticias{
+    flex-direction: row;
+  }
+  aside{
+    height: 100vh;
+    width: 500px;
+    justify-content: flex-end;
+  }
+  /*****************************Slider**********************************/
+  .slider{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .slider figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+    opacity: 0;
+  }
+  .slider img{
+    width: 100%;
+    height: 100%;
+  }
+  .slider input[type="radio"]{
+    position: relative;
+    z-index: 10;
+    margin: 0 10px;
+    bottom: 10px;
+    
+  }
+  .slider figcaption{
+    position: absolute;
+    z-index: 20;
+    color: white;
+    width: 100%;
+    bottom: 40px;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .slider figcaption p{
+    width: 100%;
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .slider input[type="radio"]:checked ~ figure{
+    opacity: 1;
+  }
+  /***************************Noticias**********************************/
+  .noticias{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .noticias .nota{
+    width: 300px;
+    height: 200px;
+    position: relative;
+  }
+  .noticias .nota figure, .noticias .nota a, .noticias .nota img{
+    width: 100%;
+    height: 100%;
+  }
+  .noticias .nota p{
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+  }
+  /***********************Footer*********************************/
+  footer{
+    background-color: rgba(23, 23, 24, 0.925);
+  }
+  footer ul{
+  flex-flow: wrap row;  
+  }
+  footer .info, footer .copyrigth p{
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+  }
+  footer .info a{
+    color:#cdcdcd;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+  footer .info a:hover{
+  color:#fff;
+  }
+  footer .copyrigth p{
+    margin: 10px 0px;
+  }
+  footer li {
+    margin: 5px 10px;
+}
+  .banderas img {
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  }
+  section.banderas {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  }
+  /****************************Iconos********************************/
+  .redes{
+    position: fixed;
+    z-index: 50;
+  }
+  .redes span{
+    padding: 5px;
+    width: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 25px;
+  }
+  .primero{
+    border-radius: 0px 5px 0px 0px;
+  }
+  .ultimo{
+    border-radius: 0px 0px 5px 0px;
+  }
+  .icon-facebook{
+    background-color: blue;
+  }
+  .icon-gplus{
+    background-color: rgb(9, 160, 77);
+  }
+  .icon-twitter{
+    background-color: rgb(0, 183, 255);
+  }
+  .icon-youtube{
+    background-color: rgb(224, 9, 38);
+  }
+  .icon-search{
+    font-size: 25px;
+    padding-left: 10px;
+    color: #fff;
+  }
+  /***************************Eventos******************************/
+  .redes span:hover{
+    padding-left: 20px;
+  }
+  /***********************Media Query**************************************/
+  @media screen and (min-width: 780px) {
+  
+    .hamburguesa{
+    display: none;
+    }
+    nav{
+    display: flex;
+    flex-direction: row;
+  }
+    nav.menu ul { 
+    flex-direction: row;
+    align-items: center;
+  }
+  .secundario nav {
+    justify-content: center;
+  }
+  nav.menu {
+    justify-content: center;
+  }
+  .secundario textarea {
+    border: #000;
+    border-bottom: 1px solid;
+    height: 20px;
+    align-items: center;
+    margin-right: 1%;
+    margin-left: 30%;
+    resize: none;
+  }
+    }
