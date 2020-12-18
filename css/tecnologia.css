@@ -1,3 +1,4 @@
+/*Creado por Jaime y Arthur*/
 * {
   display: flex;
   flex-direction: column;
@@ -123,23 +124,37 @@ li.deporte:hover {
   main.contenedor {
     padding-top: 185px;
 }
-  .contenedor{
+  .contenedor {
     width: 100%;
   }
-  .columna{
-    width: 100%;
+  .columna {
+    width: 47%;
     margin: 20px;
   }
-  .contenedor, .noticias{
-    flex-direction: row;
+  .columna-izquierda {
+    width: 45%;
+    height: 45%;
+    margin: 20px;
+  }
+.columna-izquierda .nota p{
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: 45%;
+    box-sizing: border-box;
+    height: 45px;
+    justify-content: center;
   }
   aside{
     height: 100vh;
-    width: 500px;
+    width: 300px;
     justify-content: flex-end;
   }
   /*****************************Slider**********************************/
-  .slider{
+  .slider {
     position: relative;
     width: 100%;
     height: 500px;
@@ -160,8 +175,8 @@ li.deporte:hover {
     opacity: 0;
   }
   .slider img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
   }
   .slider input[type="radio"]{
     position: relative;
@@ -212,7 +227,7 @@ li.deporte:hover {
     background-color: rgba(0,0,0,0.8);
     width: 100%;
     box-sizing: border-box;
-    height: 50px;
+    height: 100px;
     justify-content: center;
   }
   /***********************Footer*********************************/
