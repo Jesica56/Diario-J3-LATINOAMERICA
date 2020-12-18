@@ -131,13 +131,24 @@ li.deporte:hover {
 	  width: 100%;
 	  margin: 20px;
   }
+
+  .columna-izq{
+	width: 45%;
+	margin: 20px;
+	}
+
+	.columna-izq img{
+		width: 620px;
+		height: 420px;
+	}
   .contenedor, .noticias{
 	  flex-direction: row;
   }
   aside{
-	  height: 100vh;
-	  width: 500px;
-	  justify-content: flex-end;
+	height: auto;
+    width: 500px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
   }
   /*****************************Slider**********************************/
   .slider{
@@ -216,6 +227,7 @@ li.deporte:hover {
 	  height: 50px;
 	  justify-content: center;
   }
+  
   /***********************Footer*********************************/
   footer{
 	  background-color: rgba(23, 23, 24, 0.925);
@@ -254,8 +266,19 @@ li.deporte:hover {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
   }
+  .video {
+    margin: 0px auto 10px;
+}
+  .p39a {
+    margin: 0 auto;
+}
+.p39a img {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
   /****************************Iconos********************************/
   .redes{
 	  position: fixed;
@@ -298,6 +321,52 @@ li.deporte:hover {
   .redes span:hover{
 	  padding-left: 20px;
   }
+ /***************************seccion educacion******************************/
+   .titulo{
+	   flex-direction: row;
+	   background-color: #02C8CF;
+  }
+
+  .titulo a{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: none;
+	color:rgba(23, 23, 24, 0.925);
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+  .tiulo{
+	  display:inline-block
+  }
+
+  .titulo a:hover{
+     color: #f7f6f5;
+  }
+  /***************************Categorias************************************/
+  .izquierda .nota p {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: auto;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    margin-top: -50px;
+}
+  .izquierda{
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.categoria .noticias .nota {
+    width: 50%;
+    margin: 0 10px;
+}
+
+
   /***********************Media Query**************************************/
   @media screen and (min-width: 780px) {
   
