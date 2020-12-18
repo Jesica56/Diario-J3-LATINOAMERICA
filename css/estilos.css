@@ -336,13 +336,85 @@ li.deporte:hover {
 	font-weight: bold;
   }
 
-  .tiulo{
-	  display:inline-block
-  }
-
-  .titulo a:hover{
+    .titulo a:hover{
      color: #f7f6f5;
   }
+
+  .primera{
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: center; 
+  }
+  .segunda{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+}
+
+.tercera{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+}
+  .primera .imagen img{
+	 width: 800px; 
+	 margin-top: 250px;
+	 margin-left: 30px;
+	 border-radius: 6px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+	transition: all 400ms ease;
+  }
+
+  .primera .imagen img:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+  }
+
+  .primera .imagen p{
+	margin-left: 30px;
+	line-height: 1.5;
+  }
+
+  .segunda .imagen img{
+	width: 500px; 
+	margin-top: 100px;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+	transition: all 400ms ease;
+ }
+
+ .segunda .imagen img:hover{
+	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+ }
+
+  .segunda .imagen p{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+
+.tercera .imagen img{
+	width: 400px; 
+	margin-top: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+	transition: all 400ms ease;
+ }
+
+ .tercera .imagen img:hover{
+	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+ }
+ 
+  .tercera .imagen p{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
   /***************************Categorias************************************/
   .izquierda .nota p {
     position: relative;
@@ -365,8 +437,6 @@ li.deporte:hover {
     width: 50%;
     margin: 0 10px;
 }
-
-
   /***********************Media Query**************************************/
   @media screen and (min-width: 780px) {
   
