@@ -531,7 +531,7 @@ li.deporte:hover, #deporte .deporte {
 		cursor: pointer;
 	}
   /***************************Categorias************************************/
-  .izquierda .nota p {
+  .izquierda .nota label.lbl-modal {
     position: relative;
     text-align: center;
     color: white;
