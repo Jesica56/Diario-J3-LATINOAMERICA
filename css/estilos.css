@@ -553,7 +553,7 @@ li.deporte:hover, #deporte .deporte{
     margin: 0 10px;
 }
 /******************************Seccion Deporte*****************************/
-.deporte{
+main{
 	justify-content: space-around;
 }
 .uno{
