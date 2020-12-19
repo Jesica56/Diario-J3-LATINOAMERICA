@@ -618,8 +618,8 @@ main{
 	flex-direction: row;
 	align-items: center;
 }
-.modald .imagenes:nth-last-child(2){
-	
+.modald .imagenes:nth-last-child(1){
+	background-color: white;
 }
 .modald a{
 	color: white;
