@@ -115,13 +115,13 @@
 li.politica:hover,#politica .politica {
     background: #4C0CCD;
 }
-li.tecnologia:hover, #tecnologia .tecnologia {
+li.tecnologia:hover, #tecnologia .tecnologia, #tecnologia .contenedorm header {
     background: #8C12CD;
 }
 li.turismo:hover,#turismo .turismo {
     background: #F8890C;
 }
-li.educacion:hover, #tecnologia .tecnologia {
+li.educacion:hover, #educacion .educacion {
     background: #02C8CF;
 }
 li.deporte:hover, #deporte .deporte{
@@ -146,11 +146,11 @@ li.deporte:hover, #deporte .deporte{
   }
 
   .columna-izq{
-	width: 45%;
+	width: 620px;
 	margin: 20px;
 	}
 
-	.columna-izq img{
+.columna-izq img{
 		width: 620px;
 		height: 420px;
 	}
@@ -184,7 +184,7 @@ li.deporte:hover, #deporte .deporte{
 	  transition: all 0.7s;
 	  opacity: 0;
   }
-  .slider img, .slider figure a{
+   .slider img, .slider figure a{
 	  width: 100%;
 	  height: 100%;
   }
@@ -337,141 +337,6 @@ li.deporte:hover, #deporte .deporte{
   .redes span:hover{
 	  padding-left: 20px;
   }
- /***************************seccion educacion******************************/
-   .titulo{
-	   flex-direction: row;
-	   background-color: #02C8CF;
-  }
-
-  .titulo a{
-	font-family: sans-serif;
-	text-decoration: none;
-	color:rgba(23, 23, 24, 0.925);
-	padding: 5px;
-	font-size: 15px;
-	font-weight: bold;
-  }
-
-    .titulo a:hover{
-     color: #f7f6f5;
-  }
-
-  .primera{
-	  display: flex;
-	  flex-flow: row wrap;
-	  justify-content: center; 
-  }
-  .segunda{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-.tercera{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-.noti_principal .img{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-  .primera .imagen img{
-	 width: 800px; 
-	 margin-top: 250px;
-	 margin-left: 30px;
-	 border-radius: 6px;
-	 box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	 transition: all 400ms ease;
-  }
-
-  .primera .imagen img:hover{
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
-  }
-
-  .primera .imagen p{
-	margin-left: 30px;
-	margin-top: 10px;
-	line-height: 1.5;
-	font-size: 20px;
-	/* font-weight: bold; */
-	color: black;
-	text-align: center;
-	font-family: sans-serif;
-  }
-
-  .segunda .imagen img{
-	width: 500px; 
-	margin-top: 100px;
-	margin-left: 15px;
-	margin-right: 20px;
-	margin-bottom: 0px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease;
- }
-
- .segunda .imagen img:hover{
-	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
- }
-
-  .segunda .imagen p{
-	margin-left: 30px;
-	margin-bottom: 50px;
-	line-height: 1.5;
-}
-
-.tercera .imagen img{
-	width: 400px; 
-	margin-top: 30px;
-	margin-left: 17px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease;
- }
-
- .tercera .imagen img:hover{
-	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
- }
- 
-  .tercera .imagen p{
-	margin-left: 30px;
-	margin-bottom: 50px;
-	line-height: 1.5;
-}
-
-.noti_principal .img img{
-	width: 800px; 
-	margin-top: 250px;
-	margin-left: 30px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease
- }
-
- .noti_principal .img img:hover{
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
-  }
-
-  .noti_principal .img h2{
-	margin-top: 30px;
-	line-height: 1.5;
-	font-family: sans-serif;
-	text-align: center;
-  }
-
-   .noti_principal .img p{
-	margin: 50px 50px;
-	line-height: 1.5;
-	font-family: sans-serif;
-	text-align: justify;
-	padding: 15px;
-  }
    /***************************Modal***********************************/
    .modal, .modal2, .modal3, .modal4, .modal5{
 	   position: fixed;
@@ -538,28 +403,7 @@ li.deporte:hover, #deporte .deporte{
 		border-radius: 4px;
 		cursor: pointer;
 	}
-  /***************************Categorias************************************/
-  .izquierda .nota label.lbl-modal {
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    background-color: rgba(0,0,0,0.8);
-    width: auto;
-    box-sizing: border-box;
-    height: 50px;
-    justify-content: center;
-    margin-top: -50px;
-}
-  .izquierda{
-	width: 100%;
-	justify-content: space-between;
-	margin-top: 20px;
-}
-.categoria .noticias .nota {
-    width: 50%;
-    margin: 0 10px;
-}
+
 /******************************Seccion Deporte*****************************/
 .deporte{
 	justify-content: space-around;
@@ -603,7 +447,7 @@ li.deporte:hover, #deporte .deporte{
 	border: 1px solid white;
 	font-size: 25px;
 }
-.modald p{
+.modald p, .modald h3{
 	width: 450px;
 	text-align: center;
 	margin: 5px;
