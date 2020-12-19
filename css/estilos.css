@@ -184,11 +184,7 @@ li.deporte:hover, #deporte .deporte{
 	  transition: all 0.7s;
 	  opacity: 0;
   }
-<<<<<<< HEAD
    .slider img, .slider figure a{
-=======
-  .slider img, .slider figure a{
->>>>>>> aedb29423195ca4234381e65ac4b44d4c3dd2cfc
 	  width: 100%;
 	  height: 100%;
   }
