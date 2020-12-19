@@ -71,7 +71,13 @@
     background: #fff;
     border-radius: 5px;
 }
-.menu a:hover {
+.menu a:hover,
+#turismo .menu .turismo a
+#politica .menu .gaming a,
+#deporte .menu .deporte a,
+#tecnologia .menu .tecnologia a,
+#gaming .menu .gaming a,
+#educacion .menu .educacion a{
     color: #fff;}
   .secundario h1 {
 	flex-direction: row;
@@ -96,24 +102,29 @@
 	font-size: 22px;
 	font-weight: bold;
   }
-  li.gamming:hover {
+  .home img {
+    width: 35px;
+    height: 35px;
+}
+  li.gaming:hover, #gaming .gaming, #gaming .contenedorm header {
     background: #DD340B;
 }
-li.politica:hover {
+li.politica:hover,#politica .politica {
     background: #4C0CCD;
 }
-li.tecnologia:hover {
+li.tecnologia:hover, #tecnologia .tecnologia {
     background: #8C12CD;
 }
-li.turismo:hover {
+li.turismo:hover,#turismo .turismo {
     background: #F8890C;
 }
-li.educacion:hover {
+li.educacion:hover, #tecnologia .tecnologia {
     background: #02C8CF;
 }
-li.deporte:hover {
+li.deporte:hover, #deporte .deporte {
     background: #13D807;
 }
+
 
   /*Fin Header*/
   body, main{
@@ -214,7 +225,7 @@ li.deporte:hover {
 	  width: 100%;
 	  height: 100%;
   }
-  .noticias .nota p{
+  .noticias .nota p, .nota label.lbl-modal{
 	  position: absolute;
 	  text-align: center;
 	  bottom: 0px;
@@ -226,6 +237,9 @@ li.deporte:hover {
 	  height: 50px;
 	  justify-content: center;
   }
+  span.texto {
+    margin: 10px;
+}
   
   /***********************Footer*********************************/
   footer{
@@ -477,15 +491,15 @@ li.deporte:hover {
 	visibility: visible;
    }
  
-   .contenedorm{
-		width: 400px;
-		height: 300px;
-		background: #fff;
-		box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
-		transition: all 500ms ease;
-		position: relative;
-		transform: translateY(-30%);
-	}  
+   .contenedorm{	
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position: relative;
+    transform: translateY(-10%);
+}
 
 	#btn-modal:checked ~ .modal,  #btn-modal2:checked ~ .modal2, #btn-modal3:checked ~ .modal3, #btn-modal4:checked ~ .modal4, #btn-modal5:checked ~ .modal5 .contenedorm{
 		transform: translateY(0%);
@@ -493,7 +507,6 @@ li.deporte:hover {
 
 	   .contenedorm header{
 		padding: 10px;
-		background: rgb(36, 34, 34) ;
 		color: #fff;
 		font-size: 20px;
 		text-align: center;
