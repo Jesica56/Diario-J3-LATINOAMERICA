@@ -530,32 +530,7 @@ li.deporte:hover, #deporte .deporte {
 		border-radius: 4px;
 		cursor: pointer;
 	}
-  /***************************Categorias************************************/
-<<<<<<< HEAD
-    .izquierda .nota label.lbl-modal {
-=======
-  .izquierda .nota label.lbl-modal {
->>>>>>> e3b4bf5f594672c609f840ae80f8ae5733869607
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    background-color: rgba(0,0,0,0.8);
-    width: auto;
-    box-sizing: border-box;
-    height: 50px;
-    justify-content: center;
-    margin-top: -50px;
-}
-  .izquierda{
-	width: 100%;
-	justify-content: space-between;
-	margin-top: 20px;
-}
-.categoria .noticias .nota {
-    width: 50%;
-    margin: 0 10px;
-}
+
 /******************************Seccion Deporte*****************************/
 .deporte{
 	justify-content: space-around;
