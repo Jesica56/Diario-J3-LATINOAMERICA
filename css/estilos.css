@@ -112,13 +112,13 @@
 li.politica:hover,#politica .politica {
     background: #4C0CCD;
 }
-li.tecnologia:hover, #tecnologia .tecnologia {
+li.tecnologia:hover, #tecnologia .tecnologia, #tecnologia .contenedorm header {
     background: #8C12CD;
 }
 li.turismo:hover,#turismo .turismo {
     background: #F8890C;
 }
-li.educacion:hover, #tecnologia .tecnologia {
+li.educacion:hover, #educacion .educacion {
     background: #02C8CF;
 }
 li.deporte:hover, #deporte .deporte {
@@ -143,11 +143,11 @@ li.deporte:hover, #deporte .deporte {
   }
 
   .columna-izq{
-	width: 45%;
+	width: 620px;
 	margin: 20px;
 	}
 
-	.columna-izq img{
+.columna-izq img{
 		width: 620px;
 		height: 420px;
 	}
@@ -530,27 +530,86 @@ li.deporte:hover, #deporte .deporte {
 		border-radius: 4px;
 		cursor: pointer;
 	}
-  /***************************Categorias************************************/
-  .izquierda .nota p {
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    background-color: rgba(0,0,0,0.8);
-    width: auto;
-    box-sizing: border-box;
-    height: 50px;
-    justify-content: center;
-    margin-top: -50px;
+
+/******************************Seccion Deporte*****************************/
+.deporte{
+	justify-content: space-around;
 }
-  .izquierda{
+.uno{
+	width: 650px;
+	height: 430px;
+	margin-top: 0px;
+	padding: 20px;
+}
+.dos{
+	margin-top: 0px;
+	width: 630px;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.uno .nota{
 	width: 100%;
-	justify-content: space-between;
-	margin-top: 20px;
+	height: 100%;
 }
-.categoria .noticias .nota {
-    width: 50%;
-    margin: 0 10px;
+.dos .nota{
+	margin-bottom: 30px;
+}
+.modald{
+	display: none;
+}
+.modald--cont{
+	align-items: center;
+	position: relative;
+}
+.modald .cerrar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgba(7, 6, 6, 0.76);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid white;
+	font-size: 25px;
+}
+.modald p{
+	width: 450px;
+	text-align: center;
+	margin: 5px;
+}
+.modald:target{
+	display: flex;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.733);
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 100;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.modald .imagenes{
+	flex-direction: row;
+	align-items: center;
+}
+.modald .imagenes:nth-last-child(2){
+	
+}
+.modald a{
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	font-size: 30px;
+}
+.modald .imagenes img{
+	width: 500px;
+	height: 300px;
+	border: 2px solid white;
 }
   /***********************Media Query**************************************/
   @media screen and (min-width: 780px) {
