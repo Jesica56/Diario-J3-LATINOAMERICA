@@ -112,13 +112,13 @@
 li.politica:hover,#politica .politica {
     background: #4C0CCD;
 }
-li.tecnologia:hover, #tecnologia .tecnologia {
+li.tecnologia:hover, #tecnologia .tecnologia, #tecnologia .contenedorm header {
     background: #8C12CD;
 }
 li.turismo:hover,#turismo .turismo {
     background: #F8890C;
 }
-li.educacion:hover, #tecnologia .tecnologia {
+li.educacion:hover, #educacion .educacion {
     background: #02C8CF;
 }
 li.deporte:hover, #deporte .deporte {
@@ -143,11 +143,11 @@ li.deporte:hover, #deporte .deporte {
   }
 
   .columna-izq{
-	width: 45%;
+	width: 620px;
 	margin: 20px;
 	}
 
-	.columna-izq img{
+.columna-izq img{
 		width: 620px;
 		height: 420px;
 	}
@@ -531,7 +531,7 @@ li.deporte:hover, #deporte .deporte {
 		cursor: pointer;
 	}
   /***************************Categorias************************************/
-  .izquierda .nota p {
+    .izquierda .nota label.lbl-modal {
     position: relative;
     text-align: center;
     color: white;
