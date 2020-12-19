@@ -72,7 +72,7 @@
     border-radius: 5px;
 }
 .menu a:hover,
-#turismo .menu .turismo a
+#turismo .menu .turismo a,
 #politica .menu .gaming a,
 #deporte .menu .deporte a,
 #tecnologia .menu .tecnologia a,
@@ -93,7 +93,10 @@
   .secundario form {
 	align-items: center;
   }
-  
+  #home li.home {
+    background: #fff;
+    border-radius: 15px;
+}
   .menu a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 18px;
@@ -121,7 +124,7 @@ li.turismo:hover,#turismo .turismo {
 li.educacion:hover, #tecnologia .tecnologia {
     background: #02C8CF;
 }
-li.deporte:hover, #deporte .deporte {
+li.deporte:hover, #deporte .deporte{
     background: #13D807;
 }
 
