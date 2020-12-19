@@ -65,7 +65,7 @@ J3+ está integrado por los siguientes desarrolladores:
 * **Arturo Solano** - *México* - [arturosmisc](https://github.com/arturosmisc)
 * **Santiago Quispe** - *Argentina* - [santi343](https://github.com/santi343)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://santi343.github.io/proyecto-jjjs/) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
