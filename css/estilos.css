@@ -72,7 +72,7 @@
     border-radius: 5px;
 }
 .menu a:hover,
-#turismo .menu .turismo a
+#turismo .menu .turismo a,
 #politica .menu .gaming a,
 #deporte .menu .deporte a,
 #tecnologia .menu .tecnologia a,
@@ -93,7 +93,10 @@
   .secundario form {
 	align-items: center;
   }
-  
+  #home li.home {
+    background: #fff;
+    border-radius: 15px;
+}
   .menu a {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 18px;
@@ -121,7 +124,7 @@ li.turismo:hover,#turismo .turismo {
 li.educacion:hover, #educacion .educacion {
     background: #02C8CF;
 }
-li.deporte:hover, #deporte .deporte {
+li.deporte:hover, #deporte .deporte{
     background: #13D807;
 }
 
@@ -181,7 +184,7 @@ li.deporte:hover, #deporte .deporte {
 	  transition: all 0.7s;
 	  opacity: 0;
   }
-  .slider img{
+   .slider img, .slider figure a{
 	  width: 100%;
 	  height: 100%;
   }
@@ -334,141 +337,6 @@ li.deporte:hover, #deporte .deporte {
   .redes span:hover{
 	  padding-left: 20px;
   }
- /***************************seccion educacion******************************/
-   .titulo{
-	   flex-direction: row;
-	   background-color: #02C8CF;
-  }
-
-  .titulo a{
-	font-family: sans-serif;
-	text-decoration: none;
-	color:rgba(23, 23, 24, 0.925);
-	padding: 5px;
-	font-size: 15px;
-	font-weight: bold;
-  }
-
-    .titulo a:hover{
-     color: #f7f6f5;
-  }
-
-  .primera{
-	  display: flex;
-	  flex-flow: row wrap;
-	  justify-content: center; 
-  }
-  .segunda{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-.tercera{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-.noti_principal .img{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-}
-
-  .primera .imagen img{
-	 width: 800px; 
-	 margin-top: 250px;
-	 margin-left: 30px;
-	 border-radius: 6px;
-	 box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	 transition: all 400ms ease;
-  }
-
-  .primera .imagen img:hover{
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
-  }
-
-  .primera .imagen p{
-	margin-left: 30px;
-	margin-top: 10px;
-	line-height: 1.5;
-	font-size: 20px;
-	/* font-weight: bold; */
-	color: black;
-	text-align: center;
-	font-family: sans-serif;
-  }
-
-  .segunda .imagen img{
-	width: 500px; 
-	margin-top: 100px;
-	margin-left: 15px;
-	margin-right: 20px;
-	margin-bottom: 0px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease;
- }
-
- .segunda .imagen img:hover{
-	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
- }
-
-  .segunda .imagen p{
-	margin-left: 30px;
-	margin-bottom: 50px;
-	line-height: 1.5;
-}
-
-.tercera .imagen img{
-	width: 400px; 
-	margin-top: 30px;
-	margin-left: 17px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease;
- }
-
- .tercera .imagen img:hover{
-	 box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
- }
- 
-  .tercera .imagen p{
-	margin-left: 30px;
-	margin-bottom: 50px;
-	line-height: 1.5;
-}
-
-.noti_principal .img img{
-	width: 800px; 
-	margin-top: 250px;
-	margin-left: 30px;
-	border-radius: 6px;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-	transition: all 400ms ease
- }
-
- .noti_principal .img img:hover{
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
-  }
-
-  .noti_principal .img h2{
-	margin-top: 30px;
-	line-height: 1.5;
-	font-family: sans-serif;
-	text-align: center;
-  }
-
-   .noti_principal .img p{
-	margin: 50px 50px;
-	line-height: 1.5;
-	font-family: sans-serif;
-	text-align: justify;
-	padding: 15px;
-  }
    /***************************Modal***********************************/
    .modal, .modal2, .modal3, .modal4, .modal5{
 	   position: fixed;
@@ -499,6 +367,11 @@ li.deporte:hover, #deporte .deporte {
     transition: all 500ms ease;
     position: relative;
     transform: translateY(-10%);
+}
+.contenedorm p.nintendo {
+    justify-content: flex-end;
+    height: 125px;
+    bottom: -68px;
 }
 
 	#btn-modal:checked ~ .modal,  #btn-modal2:checked ~ .modal2, #btn-modal3:checked ~ .modal3, #btn-modal4:checked ~ .modal4, #btn-modal5:checked ~ .modal5 .contenedorm{
@@ -574,7 +447,7 @@ li.deporte:hover, #deporte .deporte {
 	border: 1px solid white;
 	font-size: 25px;
 }
-.modald p{
+.modald p, .modald h3{
 	width: 450px;
 	text-align: center;
 	margin: 5px;
@@ -606,7 +479,7 @@ li.deporte:hover, #deporte .deporte {
 	margin: 5px;
 	font-size: 30px;
 }
-.modald .imagenes img{
+.modald .imagenes img, .modald iframe{
 	width: 500px;
 	height: 300px;
 	border: 2px solid white;
