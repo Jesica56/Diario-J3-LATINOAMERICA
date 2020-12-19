@@ -71,7 +71,7 @@
     background: #fff;
     border-radius: 5px;
 }
-.menu a:hover {
+.menu a:hover,#turismo .menu .turismo a {
     color: #fff;}
   .secundario h1 {
 	flex-direction: row;
@@ -96,6 +96,10 @@
 	font-size: 22px;
 	font-weight: bold;
   }
+  .home img {
+    width: 35px;
+    height: 35px;
+}
   li.gaming:hover {
     background: #DD340B;
 }
@@ -105,7 +109,7 @@ li.politica:hover {
 li.tecnologia:hover {
     background: #8C12CD;
 }
-li.turismo:hover {
+li.turismo:hover,#turismo .turismo {
     background: #F8890C;
 }
 li.educacion:hover {
@@ -113,6 +117,9 @@ li.educacion:hover {
 }
 li.deporte:hover {
     background: #13D807;
+}
+ {
+    background: #F8890C;
 }
 
   /*Fin Header*/
@@ -214,7 +221,7 @@ li.deporte:hover {
 	  width: 100%;
 	  height: 100%;
   }
-  .noticias .nota p{
+  .noticias .nota p, .nota label.lbl-modal{
 	  position: absolute;
 	  text-align: center;
 	  bottom: 0px;
@@ -226,6 +233,9 @@ li.deporte:hover {
 	  height: 50px;
 	  justify-content: center;
   }
+  span.texto {
+    margin: 10px;
+}
   
   /***********************Footer*********************************/
   footer{
