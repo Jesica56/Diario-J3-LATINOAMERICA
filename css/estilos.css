@@ -181,7 +181,7 @@ li.deporte:hover, #deporte .deporte {
 	  transition: all 0.7s;
 	  opacity: 0;
   }
-  .slider img{
+  .slider img, .slider figure a{
 	  width: 100%;
 	  height: 100%;
   }
@@ -500,6 +500,11 @@ li.deporte:hover, #deporte .deporte {
     position: relative;
     transform: translateY(-10%);
 }
+.contenedorm p.nintendo {
+    justify-content: flex-end;
+    height: 125px;
+    bottom: -68px;
+}
 
 	#btn-modal:checked ~ .modal,  #btn-modal2:checked ~ .modal2, #btn-modal3:checked ~ .modal3, #btn-modal4:checked ~ .modal4, #btn-modal5:checked ~ .modal5 .contenedorm{
 		transform: translateY(0%);
@@ -627,7 +632,7 @@ li.deporte:hover, #deporte .deporte {
 	margin: 5px;
 	font-size: 30px;
 }
-.modald .imagenes img{
+.modald .imagenes img, .modald iframe{
 	width: 500px;
 	height: 300px;
 	border: 2px solid white;
