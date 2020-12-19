@@ -562,15 +562,40 @@ li.deporte:hover {
 .dos .nota{
 	margin-bottom: 30px;
 }
-.modal{
-	position: absolute;
-	background-color: rgba(0,0,0,0.4);
+.modald{
+	display: none;
+}
+.modald:target{
+	display: flex;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.733);
 	height: 100%;
 	width: 100%;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
-	z-index: 50;
+	z-index: 100;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.modald .imagenes{
+	flex-direction: row;
+	align-items: center;
+}
+.modald .imagenes:nth-last-child(2){
+	
+}
+.modald a{
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	font-size: 30px;
+}
+.modald .imagenes img{
+	width: 500px;
+	height: 300px;
+	border: 2px solid white;
 }
   /***********************Media Query**************************************/
   @media screen and (min-width: 780px) {
