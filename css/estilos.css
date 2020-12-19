@@ -1,4 +1,3 @@
-/*Creado por Jaime y Arthur*/
 * {
 	display: flex;
 	flex-direction: column;
@@ -321,9 +320,6 @@ li.deporte:hover {
   .redes span:hover{
 	  padding-left: 20px;
   }
-
-  /***************/
-  
  /***************************seccion educacion******************************/
    .titulo{
 	   flex-direction: row;
