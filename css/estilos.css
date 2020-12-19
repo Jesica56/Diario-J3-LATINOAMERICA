@@ -539,6 +539,39 @@ li.deporte:hover {
     width: 50%;
     margin: 0 10px;
 }
+/******************************Seccion Deporte*****************************/
+.deporte{
+	justify-content: space-around;
+}
+.uno{
+	width: 650px;
+	height: 430px;
+	margin-top: 0px;
+	padding: 20px;
+}
+.dos{
+	margin-top: 0px;
+	width: 630px;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.uno .nota{
+	width: 100%;
+	height: 100%;
+}
+.dos .nota{
+	margin-bottom: 30px;
+}
+.modal{
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 50;
+}
   /***********************Media Query**************************************/
   @media screen and (min-width: 780px) {
   
